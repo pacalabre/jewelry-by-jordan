@@ -1,0 +1,10 @@
+
+li:hover {
+  background-color: #6182E6;
+  opacity:.8;
+  border-style: solid;
+  font-family: peralta,comicsansms, cursive;
+  font-size: 34px;
+  text-decoration:none;
+  padding:1px;
+}

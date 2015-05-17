@@ -1,0 +1,211 @@
+/*Reusable Code*/
+
+.fixed {
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 550px;
+}
+
+.lightbox{
+  display: none;
+  position:fixed;
+  z-index:9999;
+  width:100%;
+  height:100%;
+  text-align: center;
+  top:0;
+  left:0;
+  background:black;
+  background:rgba(0,0,0,0.8);
+}
+
+.lightbox img{
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  display: block;
+  outline: none;
+}
+
+.socialMedia {
+ display:inline;
+ margin: 1em;
+}
+
+.header {
+  display:block;
+  padding:1em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* Header */
+
+.nav {
+  font-size: 27px;
+  display: inline;
+  text-decoration: none;
+  font-family: Syncopate,lucida sans unicode;
+  padding: 1em;
+}
+
+.navList a {
+  text-decoration:none;
+  color:inherit;
+}
+
+.cover {
+  background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/coverphoto.png");
+  height: 500px;
+}
+
+.pageTitle {
+  font-family: peralta;
+  font-size:90px;
+  text-align:center;
+  margin-left:.3em;
+  padding-top:7%;
+  margin-top:0;
+}
+
+.tagline {
+  margin-top: 1em;
+  font-family: beforebreakfast;
+  background-color: #6182E6;
+  padding: 5px;
+  opacity: 1;
+  float: right;
+  opacity:.8;
+}
+
+/* Transition photos */
+
+#transitionOne {
+  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/10943844_632523560186592_5647020229077042849_n.jpg");
+}
+
+#transitionTwo{
+  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg');
+}
+
+.about{
+   background-image: url('http://subtlepatterns.com/patterns/contemporary_china_2.png');
+
+}
+
+/*Gallery*/
+
+#gallery{
+  background-color:#3A59BA;
+  height: 2600px;
+}
+.gallery {
+  height: 1350px;
+}
+
+.galleryImage{
+  height:350px;
+  width:400px;
+}
+
+/*Custom Orders*/
+
+.customOrders {
+  background-image: url('http://subtlepatterns.com/patterns/contemporary_china_2.png');
+}
+
+ /* Media Queries */
+
+@media screen and (max-width: 1000px) {
+  .pageTitle{
+    font-size:70px;
+  }
+  .nav{
+    font-size: 20px;
+  }
+
+  .tagline{
+    height: 7%;
+    width: 70%;
+  }
+
+  .galleryImage {
+    height:263px;
+    width: 300px;
+    padding:1em;
+  }
+
+  #gallery {
+  height: 2050px;
+}
+  li:hover{
+    font-size:24px;
+  }
+}
+
+@media screen and (max-width:785px){
+
+  .pageTitle{
+    font-size:60px;
+    padding-bottom: 1em;
+    padding-top:5%;
+  }
+
+  .nav{
+    font-size:15px;
+  }
+  .tagline{
+    height: 5%;
+    width: 65%;
+  }
+  p{
+    font-size:23px;
+  }
+
+  .header{
+    width: 20%;
+  }
+
+  .galleryImage {
+    height:275px;
+    width: 241px;
+    padding:.5em;
+  }
+}
+@media screen and (max-width: 565px){
+  .pageTitle{
+    font-size:65px;
+    padding-top:3%;
+  }
+  .tagline{
+    display:none;
+    height: 9%;
+    width: 95%;
+    padding:.2em;
+  }
+  p{
+    font-size:18px;
+  }
+  .nav{
+    font-size:12px;
+    display:block;
+  }
+  nav{
+    height: 155px;
+  }
+
+  .galleryImage {
+    height:175px;
+    width: 153px;
+    padding:.1em;
+  }
+
+  #gallery{
+    height:1400px;
+  }
