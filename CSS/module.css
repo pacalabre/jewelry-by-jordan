@@ -9,20 +9,20 @@
   height: 550px;
 }
 
-.lightbox{
+.lightbox {
   display: none;
-  position:fixed;
-  z-index:9999;
-  width:100%;
-  height:100%;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  top:0;
-  left:0;
-  background:black;
-  background:rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  background: black;
+  background: rgba(0,0,0,0.8);
 }
 
-.lightbox img{
+.lightbox img {
   max-width: 90%;
   max-height: 80%;
   margin-top: 2%;
@@ -34,54 +34,80 @@
 }
 
 .socialMedia {
- display:inline;
+ display: inline;
  margin: 1em;
 }
 
 .header {
-  display:block;
-  padding:1em;
-  margin-left:auto;
-  margin-right:auto;
+  display: block;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Header */
 
+.logoText{
+  font-family: sunn;
+  font-size: 200px;
+  text-align: center;
+
+}
+
 .nav {
   font-size: 27px;
-  display: inline;
-  text-decoration: none;
+  display: inline-block;
   font-family: Syncopate,lucida sans unicode;
-  padding: 1em;
+  padding: 5px;
+  border: solid thin;
+  margin: 10px;
 }
 
 .navList a {
-  text-decoration:none;
-  color:inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .cover {
-  background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/coverphoto.png");
-  height: 500px;
+  background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/Screenshot%202015-05-17%2019.32.02.png");
+  background-size: cover;
+  height: 325px;
 }
 
 .pageTitle {
   font-family: peralta;
-  font-size:90px;
-  text-align:center;
-  margin-left:.3em;
-  padding-top:7%;
-  margin-top:0;
+  font-size: 90px;
+  text-align: center;
+  margin-left: .3em;
+  padding-top: 7%;
+  margin-top: -3em;
 }
 
 .tagline {
-  margin-top: 1em;
+  margin: -5em 5.4em 0em 0em;
   font-family: beforebreakfast;
   background-color: #6182E6;
   padding: 5px;
-  opacity: 1;
   float: right;
-  opacity:.8;
+  opacity: .8;
+  font-size: 30px;
+}
+
+/* Main Page */
+
+.main_photo{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.main_photo2{
+  float: right;
+}
+
+.footerText{
+  font-size: 100px;
+  font-family: sunn;
+  margin-top: -15px;
 }
 
 /* Transition photos */
@@ -90,18 +116,18 @@
   background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/10943844_632523560186592_5647020229077042849_n.jpg");
 }
 
-#transitionTwo{
+#transitionTwo {
   background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg');
 }
 
-.about{
+.about {
    background-image: url('http://subtlepatterns.com/patterns/contemporary_china_2.png');
 
 }
 
 /*Gallery*/
 
-#gallery{
+#gallery {
   background-color:#3A59BA;
   height: 2600px;
 }
@@ -109,9 +135,9 @@
   height: 1350px;
 }
 
-.galleryImage{
-  height:350px;
-  width:400px;
+.galleryImage {
+  height: 350px;
+  width: 400px;
 }
 
 /*Custom Orders*/
@@ -120,92 +146,99 @@
   background-image: url('http://subtlepatterns.com/patterns/contemporary_china_2.png');
 }
 
- /* Media Queries */
+/* Media Queries */
 
 @media screen and (max-width: 1000px) {
-  .pageTitle{
-    font-size:70px;
+  .pageTitle {
+    font-size: 70px;
   }
-  .nav{
+  .nav {
     font-size: 20px;
   }
 
-  .tagline{
+  .tagline {
     height: 7%;
     width: 70%;
   }
 
   .galleryImage {
-    height:263px;
+    height: 263px;
     width: 300px;
-    padding:1em;
+    padding: 1em;
   }
 
   #gallery {
   height: 2050px;
 }
-  li:hover{
-    font-size:24px;
+  li:hover {
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width:785px){
 
-  .pageTitle{
-    font-size:60px;
+  .pageTitle {
+    font-size: 60px;
     padding-bottom: 1em;
-    padding-top:5%;
+    padding-top: 5%;
   }
 
-  .nav{
-    font-size:15px;
+  .nav {
+    font-size: 15px;
   }
-  .tagline{
+  .tagline {
     height: 5%;
     width: 65%;
   }
+
   p{
-    font-size:23px;
+    font-size: 23px;
   }
 
-  .header{
+  .header {
     width: 20%;
   }
 
   .galleryImage {
-    height:275px;
+    height: 275px;
     width: 241px;
-    padding:.5em;
+    padding: .5em;
   }
 }
-@media screen and (max-width: 565px){
-  .pageTitle{
-    font-size:65px;
-    padding-top:3%;
+
+@media screen and (max-width: 565px) {
+  .pageTitle {
+    font-size: 65px;
+    padding-top: 3%;
   }
-  .tagline{
+
+  .tagline {
     display:none;
     height: 9%;
     width: 95%;
-    padding:.2em;
+    padding: .2em;
   }
-  p{
-    font-size:18px;
+
+  p {
+    font-size: 18px;
   }
-  .nav{
-    font-size:12px;
-    display:block;
+
+  .nav {
+    font-size: 12px;
+    display: block;
   }
-  nav{
+
+  nav {
     height: 155px;
   }
 
   .galleryImage {
-    height:175px;
+    height: 175px;
     width: 153px;
-    padding:.1em;
+    padding: .1em;
   }
 
-  #gallery{
-    height:1400px;
+  #gallery {
+    height: 1400px;
   }
+
