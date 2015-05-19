@@ -34,8 +34,10 @@
 }
 
 .socialMedia {
- display: inline;
- margin: 1em;
+ margin: -5em 2em .5em .5em;
+ padding: 8px 5px 5px 3em;
+ opacity: .7;
+ float: right;
 }
 
 .header {
@@ -70,8 +72,8 @@
 
 .cover {
   background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/Screenshot%202015-05-17%2019.32.02.png");
-  background-size: cover;
-  height: 325px;
+  background-size: ;
+  height: 350px;
 }
 
 .pageTitle {
@@ -84,7 +86,7 @@
 }
 
 .tagline {
-  margin: -5em 5.4em 0em 0em;
+  margin: -5em 1em 0em 0em;
   font-family: beforebreakfast;
   background-color: #6182E6;
   padding: 5px;
@@ -96,18 +98,22 @@
 /* Main Page */
 
 .main_photo{
- margin-left: auto;
- margin-right: auto;
+
 }
 
-.main_photo2{
-  float: right;
+.photo2 {
+margin-top: -18.7em;
 }
+
+.main-text {
+  font-size: 30px;
+  font-family: ;
+}
+
 
 .footerText{
   font-size: 100px;
   font-family: sunn;
-  margin-top: -15px;
 }
 
 /* Transition photos */
@@ -121,7 +127,7 @@
 }
 
 .about {
-   background-image: url('http://subtlepatterns.com/patterns/contemporary_china_2.png');
+
 
 }
 
@@ -143,7 +149,7 @@
 /*Custom Orders*/
 
 .customOrders {
-  background-image: url('http://subtlepatterns.com/patterns/contemporary_china_2.png');
+
 }
 
 /* Media Queries */

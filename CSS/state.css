@@ -1,6 +1,6 @@
 
 li:hover {
-  transition: background-color .7s ease;
+  transition: background-color 2s ease;
   background-color: #6182E6;
   opacity: 5;
 }
