@@ -34,17 +34,10 @@
 }
 
 .socialMedia {
- margin: -5em 2em .5em .5em;
- padding: 8px 5px 5px 3em;
+ margin: -5em 7em .5em .5em;
+ padding: 10px 0px 0px 0em;
  opacity: .7;
  float: right;
-}
-
-.header {
-  display: block;
-  padding: 1em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Header */
@@ -71,18 +64,8 @@
 }
 
 .cover {
-  background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/Screenshot%202015-05-17%2019.32.02.png");
-  background-size: ;
+  background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.jpg");
   height: 350px;
-}
-
-.pageTitle {
-  font-family: peralta;
-  font-size: 90px;
-  text-align: center;
-  margin-left: .3em;
-  padding-top: 7%;
-  margin-top: -3em;
 }
 
 .tagline {
@@ -97,38 +80,9 @@
 
 /* Main Page */
 
-.main_photo{
-
-}
-
-.photo2 {
-margin-top: -18.7em;
-}
-
 .main-text {
   font-size: 30px;
   font-family: ;
-}
-
-
-.footerText{
-  font-size: 100px;
-  font-family: sunn;
-}
-
-/* Transition photos */
-
-#transitionOne {
-  background-image: url("http://i694.photobucket.com/albums/vv309/pacalabre/10943844_632523560186592_5647020229077042849_n.jpg");
-}
-
-#transitionTwo {
-  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg');
-}
-
-.about {
-
-
 }
 
 /*Gallery*/
@@ -147,10 +101,6 @@ margin-top: -18.7em;
 }
 
 /*Custom Orders*/
-
-.customOrders {
-
-}
 
 /* Media Queries */
 

@@ -89,10 +89,6 @@
 
 /** Added Base Code From Original CSS File **/
 
-main {
-
-}
-
 header {
   margin-top: -8.5em;
 }
@@ -125,13 +121,11 @@ td {
 footer {
   font-size: 12px;
   font-family: Syncopate;
-
+  clear: both;
+  padding-top: 15em;
 }
 
 h4 {
   text-align: center;
 }
 
-section {
-  height: 500px;
-}
