@@ -35,7 +35,7 @@
 
 .socialMedia {
  margin: -5em 7em .5em .5em;
- padding: 10px 0px 0px 0em;
+ padding: 8px 0px 0px 0em;
  opacity: .7;
  float: right;
 }
@@ -49,12 +49,16 @@
 
 }
 
+.navHead {
+  background-image: url('http://i694.photobucket.com/albums/vv309/pacalabre/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg');
+}
+
 .nav {
-  font-size: 27px;
+  font-size: 45px;
   display: inline-block;
-  font-family: Syncopate,lucida sans unicode;
-  padding: 5px;
-  border: solid thin;
+  font-family: benchnine,lucida sans unicode;
+  padding: 1px 5px;
+  border: ;
   margin: 10px;
 }
 
@@ -69,7 +73,7 @@
 }
 
 .tagline {
-  margin: -5em 1em 0em 0em;
+  margin: -5em 1em -1em 0em;
   font-family: beforebreakfast;
   background-color: #6182E6;
   padding: 5px;
@@ -83,6 +87,11 @@
 .main-text {
   font-size: 30px;
   font-family: ;
+}
+
+.orderText {
+  font-size: 60px;
+  text-align: center;
 }
 
 /*Gallery*/
