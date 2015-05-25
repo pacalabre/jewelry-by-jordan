@@ -40,6 +40,12 @@
  float: right;
 }
 
+.sectionImage {
+  height: 350px;
+  width: 400px;
+  padding: .5em;
+}
+
 /* Header */
 
 .logoText{
@@ -86,7 +92,8 @@
 
 .main-text {
   font-size: 30px;
-  font-family: ;
+  font-family:
+
 }
 
 .orderText {
@@ -104,12 +111,8 @@
   height: 1350px;
 }
 
-.galleryImage {
-  height: 350px;
-  width: 400px;
-}
-
 /*Custom Orders*/
+
 
 /* Media Queries */
 
