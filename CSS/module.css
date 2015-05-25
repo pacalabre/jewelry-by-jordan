@@ -99,6 +99,8 @@
 .orderText {
   font-size: 60px;
   text-align: center;
+  padding-top: 1px;
+  clear: both;
 }
 
 /*Gallery*/
