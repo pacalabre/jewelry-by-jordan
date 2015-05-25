@@ -103,19 +103,6 @@
   clear: both;
 }
 
-/*Gallery*/
-
-#gallery {
-  background-color:#3A59BA;
-  height: 2600px;
-}
-.gallery {
-  height: 1350px;
-}
-
-/*Custom Orders*/
-
-
 /* Media Queries */
 
 @media screen and (max-width: 1000px) {
