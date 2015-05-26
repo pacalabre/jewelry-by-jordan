@@ -104,96 +104,85 @@
 /* Media Queries */
 
 @media screen and (max-width: 1000px) {
-  .pageTitle {
-    font-size: 70px;
+
+  .logoText {
+    font-size: 175px;
+    padding-top: .55em;
   }
   .nav {
-    font-size: 20px;
+    font-size: 40px;
   }
 
-  .tagline {
-    height: 7%;
-    width: 70%;
-  }
-
-  .galleryImage {
-    height: 263px;
-    width: 300px;
-    padding: 1em;
-  }
-
-  #gallery {
-  height: 2050px;
-}
-  li:hover {
-    font-size: 24px;
-  }
 }
 
-@media screen and (max-width:785px){
+@media screen and (max-width:780px){
 
-  .pageTitle {
-    font-size: 60px;
-    padding-bottom: 1em;
-    padding-top: 5%;
+  .logoText {
+    font-size: 150px;
+    padding-top: .75em;
   }
 
   .nav {
-    font-size: 15px;
-  }
-  .tagline {
-    height: 5%;
-    width: 65%;
-  }
-
-  p{
-    font-size: 23px;
-  }
-
-  .header {
-    width: 20%;
-  }
-
-  .galleryImage {
-    height: 275px;
-    width: 241px;
-    padding: .5em;
-  }
-}
-
-@media screen and (max-width: 565px) {
-  .pageTitle {
-    font-size: 65px;
-    padding-top: 3%;
-  }
-
-  .tagline {
-    display:none;
-    height: 9%;
-    width: 95%;
-    padding: .2em;
+    font-size: 30px;
   }
 
   p {
-    font-size: 18px;
+    font-size: 23px;
+  }
+
+    .socialMedia {
+   margin: -8em 7em .5em .5em;
+   padding: 8px 0px 0px 0em;
+   opacity: .7;
+   float: right;
+  }
+
+
+}
+
+@media screen and (max-width: 580px) {
+
+  .logoText {
+    font-size: 120px;
+    padding-top: .85em;
+  }
+
+  p {
+    font-size: 20px;
   }
 
   .nav {
-    font-size: 12px;
+    font-size: 30px;
     display: block;
   }
 
-  nav {
-    height: 155px;
+  .sectionImage {
+    width: 100%;
   }
 
-  .galleryImage {
-    height: 175px;
-    width: 153px;
-    padding: .1em;
+    .socialMedia {
+   margin: -3em 7em .5em .5em;
+   padding: 8px 0px 0px 0em;
+   opacity: .7;
+   float: right;
   }
 
-  #gallery {
-    height: 1400px;
+}
+
+@media screen and (max-width: 470px) {
+
+  .logoText {
+      font-size: 90px;
+      padding-top: 1.5em;
+    }
+
+  .socialMedia {
+   margin: -2em 7em .5em .5em;
+   padding: 8px 0px 0px 0em;
+   opacity: .7;
+   float: right;
   }
+
+}
+
 
