@@ -126,17 +126,12 @@
     font-size: 30px;
   }
 
-  p {
-    font-size: 23px;
-  }
-
     .socialMedia {
    margin: -8em 7em .5em .5em;
    padding: 8px 0px 0px 0em;
    opacity: .7;
    float: right;
   }
-
 
 }
 
@@ -147,12 +142,7 @@
     padding-top: .85em;
   }
 
-  p {
-    font-size: 20px;
-  }
-
   .nav {
-    font-size: 30px;
     display: block;
   }
 
