@@ -34,7 +34,7 @@
 }
 
 .socialMedia {
- margin: -5em 7em .5em .5em;
+ margin: -9em 7em .5em .5em;
  padding: 8px 0px 0px 0em;
  opacity: .7;
  float: right;
@@ -52,6 +52,7 @@
   font-family: sunn;
   font-size: 200px;
   text-align: center;
+  padding-top: .25em;
 
 }
 
@@ -78,22 +79,11 @@
   height: 350px;
 }
 
-.tagline {
-  margin: -5em 1em -1em 0em;
-  font-family: beforebreakfast;
-  background-color: #6182E6;
-  padding: 5px;
-  float: right;
-  opacity: .8;
-  font-size: 30px;
-}
-
 /* Main Page */
 
 .main-text {
   font-size: 30px;
-  font-family:
-
+  font-family: beforebreakfast;
 }
 
 .orderText {
@@ -101,6 +91,14 @@
   text-align: center;
   padding-top: 1px;
   clear: both;
+}
+
+.main-description {
+  text-align: center;
+  font: 25px beforebreakfast;
+  background-color: #6182E6;
+  clear: both;
+  margin-top: 1em;
 }
 
 /* Media Queries */
