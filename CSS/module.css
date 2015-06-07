@@ -49,10 +49,11 @@
 /* Header */
 
 .logoText{
-  font-family: sunn;
-  font-size: 200px;
+  font-family: amatic sc;
+  text-transform: uppercase;
+  font-size: 170px;
   text-align: center;
-  padding-top: .25em;
+  padding-top: .40em;
 
 }
 
@@ -95,7 +96,7 @@
 
 .main-description {
   text-align: center;
-  font: 25px beforebreakfast;
+  font: 20px coming soon;
   background-color: #6182E6;
   clear: both;
   margin-top: 1em;
@@ -106,7 +107,7 @@
 @media screen and (max-width: 1000px) {
 
   .logoText {
-    font-size: 175px;
+    font-size: 160px;
     padding-top: .55em;
   }
   .nav {
@@ -118,8 +119,8 @@
 @media screen and (max-width:780px){
 
   .logoText {
-    font-size: 150px;
-    padding-top: .75em;
+    font-size: 120px;
+    padding-top: 1em;
   }
 
   .nav {
@@ -127,7 +128,7 @@
   }
 
     .socialMedia {
-   margin: -8em 7em .5em .5em;
+   margin: -6em 7em .5em .5em;
    padding: 8px 0px 0px 0em;
    opacity: .7;
    float: right;
@@ -138,8 +139,8 @@
 @media screen and (max-width: 580px) {
 
   .logoText {
-    font-size: 120px;
-    padding-top: .85em;
+    font-size: 100px;
+    padding-top: 1.3em;
   }
 
   .nav {
@@ -162,8 +163,8 @@
 @media screen and (max-width: 470px) {
 
   .logoText {
-      font-size: 90px;
-      padding-top: 1.5em;
+      font-size: 80px;
+      padding-top: 1.8em;
     }
 
   .socialMedia {

@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300);
 @import url(http://fonts.googleapis.com/css?family=BenchNine);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -103,7 +104,7 @@ ul {
 }
 
 p {
-  font-family: benchnine, sunn,beforebreakfast;
+  font-family: benchnine;
   font-size: 30px;
 }
 
