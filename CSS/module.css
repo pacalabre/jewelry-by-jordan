@@ -1,12 +1,10 @@
 /*Reusable Code*/
 
 .fixed {
-  width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 550px;
 }
 
 .lightbox {
@@ -78,6 +76,7 @@
 .cover {
   background-image:url("http://i694.photobucket.com/albums/vv309/pacalabre/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.jpg");
   height: 350px;
+
 }
 
 /* Main Page */
@@ -164,6 +163,10 @@ margin-top: 5em;
    float: right;
   }
 
+   .cover {
+    background-attachment: local;
+  }
+
 }
 
 @media screen and (max-width: 470px) {
@@ -174,12 +177,15 @@ margin-top: 5em;
     }
 
   .socialMedia {
-   margin: -2em 7em .5em .5em;
-   padding: 8px 0px 0px 0em;
-   opacity: .7;
-   float: right;
+     margin: -2em 8em .5em .5em;
+     padding: 8px 0px 0px 0em;
+     opacity: .7;
+     float: right;
+  }
+
+  .cover {
+    background-attachment: local;
   }
 
 }
-
 
