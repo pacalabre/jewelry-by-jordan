@@ -121,7 +121,7 @@ margin-top: 5em;
 
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:780px) {
 
   .logoText {
     font-size: 120px;
@@ -132,7 +132,7 @@ margin-top: 5em;
     font-size: 30px;
   }
 
-    .socialMedia {
+  .socialMedia {
    margin: -6em 7em .5em .5em;
    padding: 8px 0px 0px 0em;
    opacity: .7;
@@ -156,7 +156,7 @@ margin-top: 5em;
     width: 100%;
   }
 
-    .socialMedia {
+  .socialMedia {
    margin: -3em 7em .5em .5em;
    padding: 8px 0px 0px 0em;
    opacity: .7;
