@@ -39,8 +39,6 @@
 }
 
 .sectionImage {
-  height: 350px;
-  width: 400px;
   padding: .5em;
 }
 
@@ -113,7 +111,7 @@ margin-top: 5em;
 
     .logoText {
       margin-top: 1.8em;
-      padding-top: .7em;
+      padding-top: .9em;
       font-size: 75px;
       }
 
@@ -121,19 +119,31 @@ margin-top: 5em;
       margin-top: -2em;
     }
 
+    .nav {
+    display: block;
+    margin-left: -1em;
+
   }
 
-@media only screen and (min-width: 450px) {
+  }
+
+@media only screen and (min-width: 450px) and (max-width: 599px) {
 
   .logoText {
     margin-top: 1.6em;
     padding-top: 1em;
     font-size: 85px;
-    }
+  }
 
   .socialMedia {
     margin-top:-5em;
   }
+
+  .nav {
+    display: block;
+    margin-left: -1em;
+  }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 699px) {
@@ -141,7 +151,12 @@ margin-top: 5em;
   .logoText {
     margin-top: 1.5em;
     font-size: 90px;
+    padding-top: 1em;
     }
+
+  .socialMedia {
+    margin-top:-5em;
+  }
 
   .nav {
     font-size: 30px;
@@ -150,6 +165,7 @@ margin-top: 5em;
   .navList {
     margin-left: -2em;
   }
+
 }
 
 @media only screen and (min-width: 700px) and (max-width: 849px) {
@@ -158,6 +174,10 @@ margin-top: 5em;
     margin-top: 1.4em;
     font-size: 95px;
     }
+
+  .socialMedia {
+    margin-top:-5em;
+  }
 
   .nav {
     font-size: 35px;
@@ -174,6 +194,10 @@ margin-top: 5em;
     margin-top: 1.3em;
     font-size: 100px;
     }
+
+  .navList {
+    margin-left: -4em;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -196,6 +220,10 @@ margin-top: 5em;
 
   .socialMedia {
     margin-top: -8em;
+  }
+
+  .navList {
+    margin-left: -6em;
   }
 }
 }
