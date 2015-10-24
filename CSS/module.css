@@ -32,7 +32,7 @@
 }
 
 .socialMedia {
- margin: -9em 7em .5em .5em;
+ margin: -6em 4em .5em .5em;
  padding: 8px 0px 0px 0em;
  opacity: .7;
  float: right;
@@ -46,12 +46,12 @@
 
 /* Header */
 
-.logoText{
+.logoText {
   font-family: amatic sc;
   text-transform: uppercase;
-  font-size: 170px;
+  font-size: 120px;
   text-align: center;
-  padding-top: .40em;
+  padding-top: 10%;
 
 }
 
@@ -107,85 +107,96 @@
 margin-top: 5em;
 }
 
-/* Media Queries */
+ /* Media Queries */
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 499px) {
+
+    .logoText {
+      margin-top: 1.8em;
+      padding-top: .7em;
+      font-size: 75px;
+      }
+
+    .socialMedia {
+      margin-top: -2em;
+    }
+
+  }
+
+@media only screen and (min-width: 450px) {
 
   .logoText {
-    font-size: 160px;
-    padding-top: .55em;
-  }
-  .nav {
-    font-size: 40px;
-  }
+    margin-top: 1.6em;
+    padding-top: 1em;
+    font-size: 85px;
+    }
 
+  .socialMedia {
+    margin-top:-5em;
+  }
 }
 
-@media screen and (max-width:780px) {
+@media only screen and (min-width: 600px) and (max-width: 699px) {
 
   .logoText {
-    font-size: 120px;
-    padding-top: 1em;
-  }
+    margin-top: 1.5em;
+    font-size: 90px;
+    }
 
   .nav {
     font-size: 30px;
   }
 
-  .socialMedia {
-   margin: -6em 7em .5em .5em;
-   padding: 8px 0px 0px 0em;
-   opacity: .7;
-   float: right;
+  .navList {
+    margin-left: -2em;
   }
-
 }
 
-@media screen and (max-width: 580px) {
+@media only screen and (min-width: 700px) and (max-width: 849px) {
 
   .logoText {
-    font-size: 100px;
-    padding-top: 1.3em;
-  }
+    margin-top: 1.4em;
+    font-size: 95px;
+    }
 
   .nav {
-    display: block;
+    font-size: 35px;
   }
 
-  .sectionImage {
-    width: 100%;
+  .navList {
+    margin-left: -3em;
   }
-
-  .socialMedia {
-   margin: -3em 7em .5em .5em;
-   padding: 8px 0px 0px 0em;
-   opacity: .7;
-   float: right;
-  }
-
-   .cover {
-    background-attachment: local;
-  }
-
 }
 
-@media screen and (max-width: 470px) {
+@media only screen and (min-width: 850px) {
 
   .logoText {
-      font-size: 80px;
-      padding-top: 1.8em;
+    margin-top: 1.3em;
+    font-size: 100px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .logoText {
+    margin-top: 1em;
+    font-size: 120px;
     }
 
   .socialMedia {
-     margin: -2em 8em .5em .5em;
-     padding: 8px 0px 0px 0em;
-     opacity: .7;
-     float: right;
+    margin-top: -5em;
   }
 
-  .cover {
-    background-attachment: local;
-  }
+@media only screen and (min-width: 1200px) {
 
+  .logoText {
+    margin-top: .5em;
+    font-size: 135px;
+    }
+
+  .socialMedia {
+    margin-top: -8em;
+  }
+}
 }
 
