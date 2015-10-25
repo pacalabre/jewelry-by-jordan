@@ -32,10 +32,17 @@
 }
 
 .socialMedia {
- margin: -6em 4em .5em .5em;
- padding: 8px 0px 0px 0em;
+ margin: -5em 4em .5em .5em;
+ padding: 8px 0px 0px 3em;
  opacity: .7;
- float: right;
+ float: left;
+}
+
+.j {
+  float: right;
+  margin: -2.7em;
+  font-family: coming soon;
+  font-size: 30px;
 }
 
 .sectionImage {
@@ -115,15 +122,15 @@ margin-top: 5em;
       font-size: 75px;
       }
 
-    .socialMedia {
-      margin-top: -2em;
-    }
-
     .nav {
     display: block;
     margin-left: -1em;
 
-  }
+    }
+
+    .j {
+      display: none;
+    }
 
   }
 
@@ -135,13 +142,13 @@ margin-top: 5em;
     font-size: 85px;
   }
 
-  .socialMedia {
-    margin-top:-5em;
-  }
-
   .nav {
     display: block;
     margin-left: -1em;
+  }
+
+  .j {
+    display: none;
   }
 
 }
@@ -153,10 +160,6 @@ margin-top: 5em;
     font-size: 90px;
     padding-top: 1em;
     }
-
-  .socialMedia {
-    margin-top:-5em;
-  }
 
   .nav {
     font-size: 30px;
@@ -174,10 +177,6 @@ margin-top: 5em;
     margin-top: 1.4em;
     font-size: 95px;
     }
-
-  .socialMedia {
-    margin-top:-5em;
-  }
 
   .nav {
     font-size: 35px;
@@ -207,20 +206,12 @@ margin-top: 5em;
     font-size: 120px;
     }
 
-  .socialMedia {
-    margin-top: -5em;
-  }
-
 @media only screen and (min-width: 1200px) {
 
   .logoText {
     margin-top: .5em;
     font-size: 135px;
     }
-
-  .socialMedia {
-    margin-top: -8em;
-  }
 
   .navList {
     margin-left: -6em;
