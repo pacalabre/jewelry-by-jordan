@@ -1,19 +1,19 @@
 <!doctype html>
-<html class="no-js" lang="english">
+<html class="has-jgallery has-visible-jgallery" lang="english">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" type="text/css" media="all" href="jgallery css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="jgallery css/jgallery.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="jgallery_css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="jgallery_css/jgallery.min.css?v=1.5.5"/>
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/jgallery.min.js?v=1.5.5"></script>
+    <script type="text/javascript" src="js/touchswipe.min.js"></script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/module.css">
     <link rel="stylesheet" href="css/state.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
     <header>
@@ -38,113 +38,31 @@
           </ul>
         </nav>
       </header>
+      <main>
         <section class="main_section">
           <div id="gallery">
-            <div class="album" data-jgallery-album-title="Album 1">
-                <a href="http://i694.photobucket.com/albums/vv309/pacalabre/crystalNoBorders.png"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/crystalNoBorders.png" alt="Photo 1" /></a>
-                <a href="http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg" alt="Photo 2" /></a>
-                <a href="http://i694.photobucket.com/albums/vv309/pacalabre/1981893_573232582782357_5785415831235295103_n.jpg"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/1981893_573232582782357_5785415831235295103_n.jpg" alt="Photo 3" /></a>
-                <a href="http://i694.photobucket.com/albums/vv309/pacalabre/10646959_570919546346994_5193637362533175004_n.jpg"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/10646959_570919546346994_5193637362533175004_n.jpg" alt="Photo 4"/></a>
-                <a href="http://i.imgur.com/slrVyI6.jpg"><img src="http://i.imgur.com/slrVyI6.jpg" alt="Photo 5"/></a>
-                <a href="http://i.imgur.com/a7ptBKO.jpg"><img src="http://i.imgur.com/a7ptBKO.jpg" alt="Photo 6"/></a>
-                <a href="http://i.imgur.com/jMWiqMR.jpg"><img src="http://i.imgur.com/jMWiqMR.jpg" alt="Photo 7"/></a>
-                <a href="http://i.imgur.com/nUQkmyX.jpg"><img src="http://i.imgur.com/nUQkmyX.jpg" alt="Photo 8"/></a>
-                <a href="http://i.imgur.com/u6WvqfC.jpg"><img src="http://i.imgur.com/u6WvqfC.jpg" alt="Photo 9"/></a>
-                <a href="http://i.imgur.com/u0Nt54L.jpg"><img src="http://i.imgur.com/u0Nt54L.jpg" alt="Photo 10"/></a>
-                <a href="http://i.imgur.com/qM9DqV6.jpg"><img src="http://i.imgur.com/qM9DqV6.jpg" alt="Photo 11"/></a>
-                <a href="http://i.imgur.com/08c2qa9.jpg"><img src="http://i.imgur.com/08c2qa9.jpg" alt="Photo 12"/></a>
+            <div id="gallery">
+              <a href="http://i694.photobucket.com/albums/vv309/pacalabre/crystalNoBorders.png"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/crystalNoBorders.png" alt="Photo 1" /></a>
+              <a href="http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg" alt="Photo 2" /></a>
+              <a href="http://i694.photobucket.com/albums/vv309/pacalabre/1981893_573232582782357_5785415831235295103_n.jpg"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/1981893_573232582782357_5785415831235295103_n.jpg" alt="Photo 3" /></a>
+              <a href="http://i694.photobucket.com/albums/vv309/pacalabre/10646959_570919546346994_5193637362533175004_n.jpg"><img src="http://i694.photobucket.com/albums/vv309/pacalabre/10646959_570919546346994_5193637362533175004_n.jpg" alt="Photo 4"/></a>
+              <a href="http://i.imgur.com/slrVyI6.jpg"><img src="http://i.imgur.com/slrVyI6.jpg" alt="Photo 5"/></a>
+              <a href="http://i.imgur.com/a7ptBKO.jpg"><img src="http://i.imgur.com/a7ptBKO.jpg" alt="Photo 6"/></a>
+              <a href="http://i.imgur.com/jMWiqMR.jpg"><img src="http://i.imgur.com/jMWiqMR.jpg" alt="Photo 7"/></a>
+              <a href="http://i.imgur.com/nUQkmyX.jpg"><img src="http://i.imgur.com/nUQkmyX.jpg" alt="Photo 8"/></a>
+              <a href="http://i.imgur.com/u6WvqfC.jpg"><img src="http://i.imgur.com/u6WvqfC.jpg" alt="Photo 9"/></a>
+              <a href="http://i.imgur.com/u0Nt54L.jpg"><img src="http://i.imgur.com/u0Nt54L.jpg" alt="Photo 10"/></a>
+              <a href="http://i.imgur.com/qM9DqV6.jpg"><img src="http://i.imgur.com/qM9DqV6.jpg" alt="Photo 11"/></a>
+              <a href="http://i.imgur.com/08c2qa9.jpg"><img src="http://i.imgur.com/08c2qa9.jpg" alt="Photo 12"/></a>
             </div>
+
           </div>
         </section>
-    <main class="container">
-      <section class="row">
-        <a href="#img1">
-          <img class="sectionImage six columns" src="http://i694.photobucket.com/albums/vv309/pacalabre/crystalNoBorders.png"/>
-        </a>
-        <a href="#_" class="lightbox" id="img1">
-          <img src="http://i694.photobucket.com/albums/vv309/pacalabre/crystalNoBorders.png" height = 550 width=550>
-        </a>
-        <a href="#img2">
-          <img class="sectionImage six columns" src="http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img2">
-          <img src="http://i694.photobucket.com/albums/vv309/pacalabre/10606112_585660098206272_6835062246929231849_n.jpg" height = 550 width=550>
-        </a>
-      <section>
-        <a href="#img3">
-          <img class="sectionImage six columns" src="http://i694.photobucket.com/albums/vv309/pacalabre/1981893_573232582782357_5785415831235295103_n.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img3">
-          <img src="http://i694.photobucket.com/albums/vv309/pacalabre/1981893_573232582782357_5785415831235295103_n.jpg" height = 550 width=550>
-        </a>
-        <a href="#img4">
-          <img class="sectionImage six columns" src="http://i694.photobucket.com/albums/vv309/pacalabre/10646959_570919546346994_5193637362533175004_n.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img4">
-          <img src="http://i694.photobucket.com/albums/vv309/pacalabre/10646959_570919546346994_5193637362533175004_n.jpg" height = 550 width=550>
-        </a>
-      </section>
-      <section class="row">
-        <a href="#img5">
-          <img class="sectionImage six columns" src="http://i.imgur.com/slrVyI6.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img5">
-          <img src="http://i.imgur.com/slrVyI6.jpg" height = 550 width=550>
-        </a>
-        <a href="#img6">
-          <img class="sectionImage six columns" src="http://i.imgur.com/a7ptBKO.jpg"
-        </a>
-        <a href="#_" class="lightbox" id="img6">
-          <img src="http://i.imgur.com/a7ptBKO.jpg" height = 550 width=550>
-        </a>
-      </section>
-      <section>
-        <a href="#img7">
-          <img class="sectionImage six columns" src="http://i.imgur.com/jMWiqMR.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img7">
-          <img src="http://i.imgur.com/jMWiqMR.jpg" height = 550 width=550>
-        </a>
-        <a href="#img8">
-          <img class="sectionImage six columns" src="http://i.imgur.com/nUQkmyX.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img8">
-          <img src="http://i.imgur.com/nUQkmyX.jpg" height = 550 width=550>
-        </a>
-      </section>
-        <a href="#img9">
-          <img class="sectionImage six columns" src="http://i.imgur.com/u6WvqfC.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img9">
-          <img src="http://i.imgur.com/u6WvqfC.jpg" height = 550 width=550>
-        </a>
-        <a href="#img10">
-          <img class="sectionImage six columns" src="http://i.imgur.com/u0Nt54L.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img10">
-          <img src="http://i.imgur.com/u0Nt54L.jpg" height = 550 width=550>
-        </a>
-      </section>
-      <section>
-        <a href="#img11">
-          <img class="sectionImage six columns" src="http://i.imgur.com/qM9DqV6.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img11">
-          <img src="http://i.imgur.com/qM9DqV6.jpg" height = 550 width=550>
-        </a>
-        <a href="#img12">
-          <img class="sectionImage six columns" src="http://i.imgur.com/08c2qa9.jpg">
-        </a>
-        <a href="#_" class="lightbox" id="img12">
-          <img src="http://i.imgur.com/08c2qa9.jpg" height = 550 width=550>
-        </a>
-      </section>
-    </main>
+      </main>
       <footer>
         <h4>PaulCalabrese.me</h4>
         <h4>copyright 2015</h4>
     </footer>
-      <script src="main.js"></script>
-      <script type="text/javascript" src="js/jgallery.min.js"></script>
+    <script src="js/main.js"></script>
     </body>
 </html>
