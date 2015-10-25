@@ -112,6 +112,17 @@
 margin-top: 5em;
 }
 
+/* About Page */
+
+.vt {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
  /* Media Queries */
 
 @media only screen and (max-width: 499px) {
