@@ -125,7 +125,11 @@ margin-top: 5em;
 
  /* Media Queries */
 
-@media only screen and (max-width: 499px) {
+@media only screen and (min-width: 200px) and (max-width: 499px) {
+
+    .fixed {
+      background-attachment: scroll;
+    }
 
     .logoText {
       margin-top: 1.8em;
@@ -145,7 +149,11 @@ margin-top: 5em;
 
   }
 
-@media only screen and (min-width: 450px) and (max-width: 599px) {
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+
+  .fixed {
+      background-attachment: scroll;
+    }
 
   .logoText {
     margin-top: 1.6em;
@@ -216,6 +224,7 @@ margin-top: 5em;
     margin-top: 1em;
     font-size: 120px;
     }
+}
 
 @media only screen and (min-width: 1200px) {
 
@@ -228,5 +237,5 @@ margin-top: 5em;
     margin-left: -6em;
   }
 }
-}
+
 
